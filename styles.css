@@ -52,3 +52,64 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
+
+
+/* LONGHAND */
+section {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* SHORTHAND */
+nav {
+  margin: 10px 20px 10px 20px;
+}
+
+/* AUTO */
+footer {
+  margin: auto;
+}
+
+/* LONGHAND */
+header {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+/* SHORTHAND */
+main {
+  padding: 20px 10px;
+}
+
+/* LONGHAND */
+header {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+/* SHORTHAND */
+main {
+  padding: 20px 10px;
+}
+
+
+header {
+  position: relative;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
