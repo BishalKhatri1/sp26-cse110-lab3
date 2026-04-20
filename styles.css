@@ -1,10 +1,27 @@
 
 
 /* External CSS example */
-body {
-  background-color: lightgray;
+
+h1 {
+  color: color-mix(in srgb, red 50%, blue 50%);
+}
+img {
+  max-width: 100%;
+  min-width: 150px;
+}
+section {
+  border: 2px solid black;
+}
+nav li {
+  display: inline-block;
 }
 
+span {
+  display: inline;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* COLOR EXAMPLES */
 h1 {
   color: rgb(120, 60, 200);
