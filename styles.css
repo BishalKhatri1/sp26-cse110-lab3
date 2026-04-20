@@ -112,4 +112,39 @@ footer {
 
 
 
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+
+
+#media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  #media {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 
