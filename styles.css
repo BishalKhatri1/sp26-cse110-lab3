@@ -1,8 +1,4 @@
-<style>
-  h2 {
-    color: blue;
-  }
-</style>
+
 
 /* External CSS example */
 body {
@@ -216,12 +212,17 @@ section:has(p) {
 }
 
 
+/* Standard (for validator) */
+nav ul {
+  padding-left: 20px;
+}
+
+/* Nested (for lab requirement) */
 nav {
   ul {
     padding-left: 20px;
   }
 }
-
 
 
 
